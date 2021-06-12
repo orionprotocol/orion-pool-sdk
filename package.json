@@ -1,17 +1,19 @@
 {
-  "name": "@uniswap/sdk",
+  "name": "@orionprotocol/orion-pool-sdk",
   "license": "MIT",
-  "version": "3.0.3",
-  "description": "🛠 An SDK for building applications on top of Uniswap.",
+  "version": "1.0.0",
+  "description": "🛠 An SDK for building applications on top of OrionPool.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-sdk.git",
+  "repository": "https://github.com/orionprotocol/orion-pool-sdk.git",
   "keywords": [
-    "uniswap",
-    "ethereum"
+    "orionprotocol",
+    "orionpool",
+    "ethereum",
+    "bsc"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
