@@ -1,7 +1,5 @@
 # OrionPool SDK
 
-Warning: only Binance Smart Chain is supported now. Ethereum will be added in few days
-
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Actions Status](https://github.com/orionprotocol/orion-pool-sdk/workflows/CI/badge.svg)](https://github.com/orionprotocol/orion-pool-sdk)
 [![npm version](https://img.shields.io/npm/v/@orionprotocol/orion-pool-sdk/latest.svg)](https://www.npmjs.com/package/@orionprotocol/orion-pool-sdk/v/latest)
@@ -43,14 +41,16 @@ You should see output like the following:
 yarn run v1.22.10
 $ tsdx test
  PASS  test/bsc.pair.test.ts
+ PASS  test/bsc.fetch.pair.test.ts
  PASS  test/bsc.trade.test.ts
- PASS  test/bsc.fetch.token.test.ts
- PASS  test/bsc.fetch.pair.test.ts (5.815s)
+ PASS  test/bsc.fetch.token.test.ts (5.051s)
+ PASS  test/eth.pair.test.ts (5.06s)
+ PASS  test/eth.trade.test.ts (6.202s)
 
-Test Suites: 4 passed, 4 total
-Tests:       7 passed, 7 total
+Test Suites: 6 passed, 6 total
+Tests:       10 passed, 10 total
 Snapshots:   0 total
-Time:        8.269s
+Time:        8.09s
 Ran all test suites.
-Done in 10.94s.
+Done in 10.16s.
 ```

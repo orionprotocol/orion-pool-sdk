@@ -7,8 +7,8 @@ const getByNetwork = (network: ChainId): { FACTORY_ADDRESS: string; INIT_CODE_HA
   switch (network) {
     case ChainId.MAINNET:
       return {
-        FACTORY_ADDRESS: '',
-        INIT_CODE_HASH: ''
+        FACTORY_ADDRESS: '0x5FA0060FcfEa35B31F7A5f6025F0fF399b98Edf1',
+        INIT_CODE_HASH: '0x0c591b9bd08f1704b700bd0b662cd000c1bf71b54704b340e7442d09778ed7c7'
       }
     case ChainId.BSC:
       return {
