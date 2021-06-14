@@ -1,7 +1,7 @@
 import { ChainId, Pair, Token, WETH } from '../src'
 
 describe('BSC pair', () => {
-  it('ORN-USDT pair', () => {
+  it('ORN-BUSD pair', () => {
     const ORN = new Token(ChainId.BSC, '0xe4CA1F75ECA6214393fCE1C1b316C237664EaA8e', 8, 'ORN', 'Orion Protocol'),
       BUSD = new Token(
         ChainId.BSC,
